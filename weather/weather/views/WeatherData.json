@@ -1,0 +1,2 @@
+//Do it later
+{"coord":{"lon":-74.006,"lat":40.7143},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":10.11,"feels_like":8.66,"temp_min":8.42,"temp_max":11.76,"pressure":1006,"humidity":57},"visibility":10000,"wind":{"speed":8.49,"deg":302,"gust":10.28},"clouds":{"all":100},"dt":1701108835,"sys":{"type":2,"id":2008101,"country":"US","sunrise":1701086185,"sunset":1701120669},"timezone":-18000,"id":5128581,"name":"New York","cod":200}
