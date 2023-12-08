@@ -24,6 +24,7 @@
 		EC94BCF92B0ACF3C00A14ED0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94BCF82B0ACF3C00A14ED0 /* ModelData.swift */; };
 		EC94BCFD2B0AD07D00A14ED0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94BCFC2B0AD07D00A14ED0 /* Extensions.swift */; };
 		EC94BD002B0AD19F00A14ED0 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94BCFF2B0AD19F00A14ED0 /* WeatherRow.swift */; };
+		ECF6023F2B23B8AE0067F3F6 /* FavoriteLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6023E2B23B8AE0067F3F6 /* FavoriteLocationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -59,6 +60,7 @@
 		EC94BCFA2B0ACFCB00A14ED0 /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
 		EC94BCFC2B0AD07D00A14ED0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EC94BCFF2B0AD19F00A14ED0 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		ECF6023E2B23B8AE0067F3F6 /* FavoriteLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				EC0487B32B1971380063F9CD /* StartingPage.swift */,
 				EC0487B52B197BB20063F9CD /* LocationViewList.swift */,
+				ECF6023E2B23B8AE0067F3F6 /* FavoriteLocationsView.swift */,
 				EC94BCE02B0AC86200A14ED0 /* ContentView.swift */,
 				EC94BCF02B0ACCE600A14ED0 /* WelcomeView.swift */,
 				EC94BCF22B0ACD4400A14ED0 /* LoadingView.swift */,
@@ -226,6 +229,7 @@
 				EC94BCF32B0ACD4400A14ED0 /* LoadingView.swift in Sources */,
 				EC94BCF92B0ACF3C00A14ED0 /* ModelData.swift in Sources */,
 				EC94BCF72B0ACEB400A14ED0 /* WeatherView.swift in Sources */,
+				ECF6023F2B23B8AE0067F3F6 /* FavoriteLocationsView.swift in Sources */,
 				EC8A6BAD2B1E91B8007033AF /* SwiftUi.swift in Sources */,
 				EC0487B62B197BB20063F9CD /* LocationViewList.swift in Sources */,
 				EC0487B42B1971380063F9CD /* StartingPage.swift in Sources */,
@@ -288,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -345,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
