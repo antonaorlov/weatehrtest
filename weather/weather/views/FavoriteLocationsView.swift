@@ -1,21 +1,22 @@
-//
-//  FavoriteLocationsView.swift
-//  weather
-//
-//  Created by user243761 on 12/8/23.
-//
-
 import SwiftUI
 
 struct FavoriteLocationsView: View {
     var locations: [Location]
 
     var body: some View {
-        List {
-            ForEach(locations, id: \.id) { location in
-                Text(location.name)
+        ZStack {
+            // Gradient background
+            LinearGradient(gradient: Gradient(colors: [Color.blue, Color.purple]), startPoint: .topLeading, endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all) // This will make sure the gradient fills the whole background
+
+            // List
+            List {
+                ForEach(locations, id: \.id) { location in
+                    Text(location.name)
+                }
             }
+            .navigationTitle("Favorite Locations")
         }
-        .navigationTitle("Favorite Locations")
     }
 }
+

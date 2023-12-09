@@ -31,7 +31,7 @@ Text("Step 2) See which locations are next to you")
                        .font(.title2)
                        .foregroundColor(Color.white)
                        .padding()
-                    .background(Color.blue)
+                    .background(Color.yellow)
                        .cornerRadius(10)
                        .padding(.vertical, 8)
                        .padding(.bottom, 100)
@@ -79,7 +79,12 @@ Text("Step 2) See which locations are next to you")
                .navigationBarTitle("Locations", displayMode: .inline)
                .navigationBarItems(trailing: EditButton())
                
-               .background(LinearGradient(gradient: Gradient(colors: [Color.pink, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
+               .background(
+                 LinearGradient(gradient: Gradient(colors: [Color.red, Color.purple]), startPoint: .topLeading, endPoint: .bottomTrailing)
+               )
+               
+
+               .preferredColorScheme(.dark)
            }
            .sheet(isPresented: $showingAddLocationSheet) {
                        // Ensure that the view you're presenting here is correct.

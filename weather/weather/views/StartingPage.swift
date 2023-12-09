@@ -16,12 +16,16 @@ struct StartingPage: View {
   @EnvironmentObject var locationManager: LocationManager
     //state variable controls opacity of button for animation
     @State private var buttonOpacity: Double = 0
+    
+    
+    
+    
     //body defines view content
   var body: some View {
       //naviagetion of app
     NavigationView {
         //vertical stack for children code
-      VStack {
+              VStack {
           //obtain image url, check if possible
                   AsyncImage(url: URL(string: "https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-8.png")) { phase in
             if let image = phase.image {
@@ -51,8 +55,7 @@ struct StartingPage: View {
           //button navigates to view to LocationListView file
           NavigationLink(destination: LocationListView()) {
           Text("Go to Locations")
-            .foregroundColor(.white)
-            .padding()
+        .foregroundColor(.white)            .padding()
             .background(Color.green)
             .cornerRadius(10)
         }
@@ -62,17 +65,21 @@ struct StartingPage: View {
                               withAnimation(.easeIn(duration: 2.0)) {
                                   buttonOpacity = 1
                               }
-                          }              }
+                          }
+                         
+          
+      }
       
       .cornerRadius(30)
-      .symbolVariant(.fill)
-      .foregroundColor(.purple)
-    
+      
     }
+  
     .frame(maxWidth: .infinity, maxHeight: .infinity)
-    .background(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .top, endPoint: .bottom))
-    .edgesIgnoringSafeArea(.all)
+    
+      
+    
   }
+      
 }
 
 //create new structure, PreviewProvider to preview SwiftUi in canva
