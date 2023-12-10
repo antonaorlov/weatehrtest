@@ -24,6 +24,7 @@
 		EC94BCF92B0ACF3C00A14ED0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94BCF82B0ACF3C00A14ED0 /* ModelData.swift */; };
 		EC94BCFD2B0AD07D00A14ED0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94BCFC2B0AD07D00A14ED0 /* Extensions.swift */; };
 		EC94BD002B0AD19F00A14ED0 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94BCFF2B0AD19F00A14ED0 /* WeatherRow.swift */; };
+		ECF3F04B2B255094009AA6E1 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ECF3F04A2B255094009AA6E1 /* Unknown.jpeg */; };
 		ECF6023F2B23B8AE0067F3F6 /* FavoriteLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6023E2B23B8AE0067F3F6 /* FavoriteLocationsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		EC94BCFA2B0ACFCB00A14ED0 /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
 		EC94BCFC2B0AD07D00A14ED0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EC94BCFF2B0AD19F00A14ED0 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		ECF3F04A2B255094009AA6E1 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown.jpeg; path = ../../../Unknown.jpeg; sourceTree = "<group>"; };
 		ECF6023E2B23B8AE0067F3F6 /* FavoriteLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				EC900D042B1A7D90002A735C /* weather-icon-png-8.png */,
+				ECF3F04A2B255094009AA6E1 /* Unknown.jpeg */,
 				EC94BCE52B0AC86300A14ED0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -210,6 +213,7 @@
 				EC94BCE62B0AC86300A14ED0 /* Preview Assets.xcassets in Resources */,
 				EC900D052B1A7D90002A735C /* weather-icon-png-8.png in Resources */,
 				EC94BCE32B0AC86300A14ED0 /* Assets.xcassets in Resources */,
+				ECF3F04B2B255094009AA6E1 /* Unknown.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

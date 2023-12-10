@@ -48,13 +48,14 @@ struct WeatherView: View {
                     }
                     
                     Spacer()
-                        .frame(height:  80)
+                        .frame(height:  100)
                     
-                    AsyncImage(url: URL(string: "https://cdn.pixabay.com/photo/2020/01/24/21/33/city-4791269_960_720.png")) { image in
+                    AsyncImage(url: URL(string: "https://i.pinimg.com/originals/7d/ac/fa/7dacfae19e5229d546ef60f84e4174ea.png"
+                                       )) { image in
                         image
                             .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 350)
+                            .aspectRatio(contentMode:.fit)
+                            .frame(width: 300, height: 100)
                     } placeholder: {
                         ProgressView()
                     }
@@ -89,12 +90,12 @@ struct WeatherView: View {
                 .padding()
                 .padding(.bottom, 20)
                 .foregroundColor(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
-                .background(.white)
+                .background(.purple)
                 .cornerRadius(20, corners: [.topLeft, .topRight])
             }
         }
         .edgesIgnoringSafeArea(.bottom)
-        .background(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
+        .background(Color(hue: 0.9, saturation: 0.6, brightness: 0.3))
         .preferredColorScheme(.dark)
     }
 }

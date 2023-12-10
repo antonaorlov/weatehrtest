@@ -15,6 +15,7 @@ struct weatherApp: App {
     var body: some Scene {
            WindowGroup { //groups together views in app, creates new window.
                StartingPage() // first screen user sees
+             
             
            }
        }

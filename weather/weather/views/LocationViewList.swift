@@ -14,7 +14,6 @@ struct LocationListView: View {
             Location(name: "New York City", isFavorite: false),
             Location(name: "New Jersey", isFavorite: false),
             Location(name: "Philadelphia, NY", isFavorite: false),
-            Location(name: "Rochester, NY", isFavorite: false)
         ]
     
     
