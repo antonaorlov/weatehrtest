@@ -7,69 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4C326D9C-579A-4CB2-A5AD-EC298A6324C4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "weather/views/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "ContentView_Previews"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "4C326D9C-579A-4CB2-A5AD-EC298A6324C4 - 9e743bfe6de0e415"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "weather.ContentView_Previews.init() -&gt; weather.ContentView_Previews"
-                  moduleName = "weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user243761/Desktop/weather/weather/views/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "4C326D9C-579A-4CB2-A5AD-EC298A6324C4 - 9e743bfe6de0e474"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "weather.ContentView_Previews.init() -&gt; weather.ContentView_Previews"
-                  moduleName = "weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user243761/Desktop/weather/weather/views/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "4C326D9C-579A-4CB2-A5AD-EC298A6324C4 - 9e743bfe6de0e625"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "weather.ContentView_Previews.init() -&gt; weather.ContentView_Previews"
-                  moduleName = "weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user243761/Desktop/weather/weather/views/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "0">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0F9AC14B-99D3-4493-92AC-5497C19D267C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
